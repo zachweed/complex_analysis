@@ -11,6 +11,7 @@ class ComplexPlane
     (complex_number.absolute_value * Math::E) ** (complex_number.i * theta)
   end
 
+
   private
 
     def generate_y_points
