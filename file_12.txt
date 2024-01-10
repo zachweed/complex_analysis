@@ -1,0 +1,11 @@
+1/12/2024
+
+- [ ] Morning Ritual
+    - [ ] Read Functions and Elements of Functional Analysis
+    - [ ] Drink Coffee
+- [ ] Eat Breakfast
+- [ ] Meditate
+- [ ] Work (10am-11:30)
+- [ ] Lunch (12-1pm)
+- [ ] Work (1pm-6pm)
+- [ ] Relax
