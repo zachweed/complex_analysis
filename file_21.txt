@@ -1,0 +1,12 @@
+01/23/2024
+
+- [ ] Tp
+- [ ] Come
+- [ ] Coffee
+- [ ] Mb k
+
+
+
+That is cool. They identify they use Ensemble Learning and a Boost model. They are great for learning because Ensemble learning allows us to build an Ensemble of Models and boosting allows for ranking and pruning. So strong learning Models propagate and go forward, and not so strong learning Models are pruned. You can pick and prune according to R^2, MSE - Mean Squared Error, and Variance so there is some wiggle room in how sensitive we could build our models to be. 
+
+Thanks!
