@@ -7,6 +7,10 @@ class ComplexPlane
     @x_points = (-BOUNDARY..BOUNDARY)
   end
 
+  def polar_coordinate(complex_number, theta)
+    (complex_number.absolute_value * Math::E) ** (complex_number.i * theta)
+  end
+
   private
 
     def generate_y_points
