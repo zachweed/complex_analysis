@@ -1,11 +1,13 @@
-01/14/2023
-￼
+Differentiators
+    difference  Company perspective Consumer Perspective    Tags
+Cash basis accounting / Cum receipt, value, etc.;   When ∂ hands;   When received;  
+Accrual                          /  cum transaction, real-time (including on account);  When begin; When begin; #accounting_transparency
+                
 
-Part Number Title   Safety and Health Regulations for Construction
-Subpart 1926 Subpart J
-Title   1926.353 - Ventilation and protection in welding, cutting, and heating.
-1926.353(c)(4)  Other employees exposed to the same atmosphere as the welders or burners shall be protected in the same manner as the welder or burner.
-1926.353(e) General welding, cutting, and heating.
-1926.353(e)(1)  Welding, cutting, and heating, not involving conditions or materials described in paragraph (b), (c), or (d) of this section, may normally be done without mechanical ventilation or respiratory protective equipment, but where, because of unusual physical or atmospheric conditions, an unsafe accumulation of contaminants exists, suitable mechanical ventilation or respiratory protective equipment shall be provided.
-source: https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.353
-[44 FR 8577, Feb. 9, 1979; 44 FR 20940, Apr. 6, 1979, as amended at 55 FR 42328, Oct. 18, 1990; 58 FR 35179, June 30, 1993]
+Cash Basis Accounting Examples:
+
+1. I purchase insurance for the whole year. I record this when I purchase it.
+2. I prepay January rent in December, I record it in December.
+3. Someone pays their bill in January for December unexpectedly, they record it in January not December.
+
+
