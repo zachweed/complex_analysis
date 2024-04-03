@@ -1,0 +1,3 @@
+04/03/2024
+
+We could work rails strong params specific to allowed endpoints into the mix so we can enforce what end users can and cannot do. 
