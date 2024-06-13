@@ -1,10 +1,18 @@
+06/06/2024
+
+- [ ] Eat
+- [ ] work
+- [ ] Study
+- [ ] Chores
 
 
-Yo team, while on call end of month: 
+Where Γ is rate of change (Δ) WRT underlying price, L δΓ/δσ is Color [gamma decay]) as derivative of Γ. 
 
-on a flight 07/15 8-10 ET, and a commitment on Saturday 07/20 5am-12pm MT (7am-2pm ET)
+That is: rate of change of gamma (Γ) over passing time. Where Color represents rate of decay of rate of change of some option. 
 
-plan is reminding once more as we approach. thanks and all apologies if that inconveniences. pretty sure things shall be good though :-)
+Naturally that is where Γ = δΔ/δS, where S is underlying price. In words, derivative of delta w.r.t. changes of an assets underlying price. 
 
+That said, consistent Color indicates less volatility of Gamma and therefore more predictable results w.r.t. volatility in the market. 
 
-18643836192
+Each of these stack as first, second, third order derivatives, all built upon theoretical changes of options of any kind in some market. 
+
