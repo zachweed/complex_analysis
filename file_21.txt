@@ -1,5 +1,5 @@
-07/21/2024
+07/25/2024
 
-- [ ] Complete homework 6
-- [ ] Complete homework 7
-- [ ] 
+Yesterday I resolved jwe bugs in sz_auth
+
+- [ ] Fix and write some more specs in identity suite for jwe and get review on that. 
