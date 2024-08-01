@@ -1,5 +1,3 @@
-07/30/2024
+08/25/2024
 
-Class   Fee On-hand Cycle
-Expos 25
-Data Structures 
+~(~(a /\ ~(b /\ a)) /\ ~(b /\ a))
