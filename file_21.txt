@@ -1,3 +1,6 @@
-08/25/2024
+08/28/2024
 
-~(~(a /\ ~(b /\ a)) /\ ~(b /\ a))
+How is a list A^0,n referred to in terms?   
+If ^n exceeds cardinality of set, then how does it repeat characters A^n, where n > |A|?    ex: A={a,b} A^4::= abab then how does
+    
+Go to Beecher crossing. 
