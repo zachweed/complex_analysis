@@ -1,18 +1,26 @@
-06/06/2024
+09/06/2024
 
-- [ ] Eat
-- [ ] work
-- [ ] Study
-- [ ] Chores
+1. 16 total questions
+
+- [ ] Keep working on: 
+    - [ ] Problem 3, 
+        - [ ] question A
+    - [x] Problem 2,
+        - [x] D,
+        - [x] & E, 
+    - [x] Problem 1, 
+        - [x] C of Problem Set, 
+
+https://www.desmos.com/calculator/yugqjjhp70
+　
+66
+
+https://www.desmos.com/calculator/n7aa5ihqe6
+https://www.desmos.com/calculator/kdve8eksya
+https://www.desmos.com/calculator/lxfpxrrvho
 
 
-Where Γ is rate of change (Δ) WRT underlying price, L δΓ/δσ is Color [gamma decay]) as derivative of Γ. 
+￼
 
-That is: rate of change of gamma (Γ) over passing time. Where Color represents rate of decay of rate of change of some option. 
 
-Naturally that is where Γ = δΔ/δS, where S is underlying price. In words, derivative of delta w.r.t. changes of an assets underlying price. 
-
-That said, consistent Color indicates less volatility of Gamma and therefore more predictable results w.r.t. volatility in the market. 
-
-Each of these stack as first, second, third order derivatives, all built upon theoretical changes of options of any kind in some market. 
-
+Something interesting with that suffix -tion, is it is pronounced like the Hebrew character Shin (ש) and that is also the initial consonant of Shibboleth, that means a thing that is said or shown that helps people realize each other are friendly. 
