@@ -1,3 +1,10 @@
-07/15/24
+09/15/2024
 
-- [ ] normal work
+Problem 2 has to do with distributing (a \/ b) over ((c \/ d)) and representing the pattern. Then break that down into components. 
+
+
+(P1 /\ Q1) \/ (P2 /\ Q2)
+
+distribute
+
+
