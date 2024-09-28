@@ -1,9 +1,14 @@
-05/20/2024
+09/27/2024
 
-2. Eat: Breakfast, Lunch, Dinner, & Snacks
-3. Work: rebuild JWE work with sz_auth update. 
-4. Study 
-5. Chores: Vitamins, Shampoo, & Conditioner
+1. meta team lead ML call
 
 
+
+Hi Zak,
+
+I found your profile on LinkedIn and I wanted to talk to you about tech lead machine learning roles here at Meta!
+
+Meta's Machine learning engineers work on projects like improving ML algorithms and prediction models, optimizing hyper-parameter learning, building scalable ML infrastructure, and ensuring deep personalization of user feeds and content recommendations, by learning user interests. These engineers build efficient, high-quality data solutions for people and businesses around the globe.
+
+If you are interested please use the tool linked below to schedule a quick intro call with
 
