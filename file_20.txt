@@ -1,5 +1,21 @@
-09/28/2024
+09/30/2024
 
-- [x] fix resume,
-- [x] send paper for class,
-- [x] Apply with jobs,
+Task    Status
+Search for different job.   In progress
+go to meeting   Not started
+train   In progress
+    
+
+Questions
+Question    
+What is the formula for an injective function?  
+what is the formula for a surjective function?  
+what is the formula for a bijective function?   
+IAM is within AWS
+
+
+Sailpoint:
+1. Datadog Metrics and SLOs
+2. Oncall rotation (DOS)
+3. SecretsManager and keys in DynamoDB rotation
+4. reference
