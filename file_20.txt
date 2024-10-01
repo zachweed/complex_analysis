@@ -1,21 +1,6 @@
-09/30/2024
+10/01/2024
 
-Task    Status
-Search for different job.   In progress
-go to meeting   Not started
-train   In progress
-    
+1. Identify positions with Department of State. 
 
-Questions
-Question    
-What is the formula for an injective function?  
-what is the formula for a surjective function?  
-what is the formula for a bijective function?   
-IAM is within AWS
-
-
-Sailpoint:
-1. Datadog Metrics and SLOs
-2. Oncall rotation (DOS)
-3. SecretsManager and keys in DynamoDB rotation
-4. reference
+Yesterday
+Working on saastriage5009 and nerocket1887. D
