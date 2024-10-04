@@ -1,14 +1,5 @@
-06/04/2024
+10/04/2024
 
-
-Yep a couple of things I found helpful for clarification in language:
-
-A school, Harvard Extension School within Harvard University. 
-
-Oxford defines one example of Extension as a category of schooling that is not full time. 
-
-Additionally, Extension is an act of prolonging, continuation, increasing size of something. 
-
-That is, part-time school increasing size of knowledge bank while continuing studies and education. 
-
-Hey Siri, text Elizabeth
+- [x] Asset assistance
+- [ ] Homework
+- [ ] 
