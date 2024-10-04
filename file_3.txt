@@ -1,7 +1,8 @@
-10/02/2024
+10/03/2024
 
-- [ ] train
-- [ ] Study Proof by Induction lecture.
-- [ ] Complete check-in questions.
-- [ ] attend class
-￼
+
+make 
+
+strong induction, how many steps back were looked? 
+
+think of induction as a ladder.
