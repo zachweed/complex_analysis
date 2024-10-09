@@ -1,14 +1,6 @@
-01/09/2024
+10/09/2024
 
-- [ ] Morning Ritual
-    - [ ] Read Functions and Elements of Functional Analysis
-    - [ ] Brush Teeth
-    - [ ] Shave
-    - [ ] Train
-        - [ ] Run (0.25 miles) t
-- [ ] Eat Breakfast
-- [ ] Meditate
-- [ ] Work (10am-11:30)
-- [ ] Lunch (12-1pm)
-- [ ] Work (1pm-6pm)
-- [ ] Relax
+Class   when    what
+math    7:38-8:44; 10:19-1:35; 3:27-5:30; 6:48-8:20 Graphs, Trees, Coloring (i.e. chromatic coloring), Graphs (Directed, Undirected, Isomorphic, Bipartite, Degree, Point of Articulation)
+English     
+total   7.25    
