@@ -1,7 +1,11 @@
-04/13/2024
+10/13/2024
 
-1. how do I calculate cash flow to assets ratio?
-2. how do I calculate cash balance at end of period?
-3. how do I calculate capital expenditure cost?
-4. what is net cash flow?
-5. what is free cash flow?
+Read:
+    - [ ] Read Paxton,
+    - [ ] Duras,
+    - [ ] Counter Argument Handout
+        - [ ] read, and sent Dr. Monaghan an email.
+    - [ ] Sample Comparitive Analysis Paper
+    - [ ] Of Hippos and Kings
+
+
