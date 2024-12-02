@@ -1,3 +1,26 @@
-05/19/2024
+D278 SCripting and Programming Foundations
 
- - [] normal work
+- [ ] Introduction
+    - [ ] Participation
+        - [ ] Comments & Whitespace
+        - [ ] Brief History
+        - [ ] Computers All Around Us
+        - [ ] Representing Information as Bits
+        - [ ] Problem Solving
+        - [ ] Why Whitespace Matters
+        - [ ] Why Programming
+        - [ ] Code and pseudocode
+        - [ ] Introduction summary
+        - [ ] Hello World
+        - [ ] No parking Sign
+        - [x] Basics
+        - [x] General
+- [ ] Variables / Assignments
+- [ ] Branches
+- [ ] Loops
+- [ ] Arrays
+- [ ] User-Defined Functions
+- [ ] Algorithms
+- [ ] The Design Process
+- [ ] Software Topics
+- [ ] Program Debugging
