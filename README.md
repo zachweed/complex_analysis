@@ -11,6 +11,23 @@ Thus, this work can receive things like `3 + 3i^5` and appropriately:
 
 These are accomplished thorugh through finding the mod of some exponent on a disk of imaginary numbers, as they are represented within the iota and exponent cycle.
 
+### How it Works
+```
+ab = ComplexNumber.new("3 + 3i")
+
+# Complex Conjugate
+ab.complex_conjugate.a
+=> "3 - 3i"
+
+# (Re) - real part
+ab.re
+=> "3"
+
+# (Im) - imaginary part
+ab.im
+=> "3i"
+```
+
 
 ### Analyzing Work
 Given `rspec` is installed, calling `rspec` goes through a series of test cases on `ComplexNumber` and `ComplexPlane`.
