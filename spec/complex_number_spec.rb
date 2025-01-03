@@ -1,6 +1,5 @@
 require 'rspec'
 require './complex_number.rb'
-require 'pry-byebug'
 
 RSpec.describe ComplexNumber do
   let(:a){ "3 + 3i" }
@@ -10,6 +9,12 @@ RSpec.describe ComplexNumber do
       cn = ComplexNumber.new(a)
       expect(cn.re).to eq("3")
       expect(cn.im).to eq("3")
+    end
+  end
+  context "#complex_conjugate" do
+    it "finds reflection" do
+      cn = ComplexNumber.new(a)
+      expect(cn.complex_conjugate.a).to eq("3 - 3i")
     end
   end
   context "#find_iota" do

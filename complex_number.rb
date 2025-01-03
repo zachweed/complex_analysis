@@ -1,14 +1,19 @@
 class ComplexNumber
-  attr_reader :re, :im, :i
+  attr_reader :re, :im, :i, :a
 
   # Represents the cycle of iota and some
   # exponent.
   IMAGINARY = [ '1', 'i', '-1', '-i' ]
 
   def initialize(a)
+    @a = a
     @re = find_re(a)
     @im = find_base(find_im(a))
     @i = convert_iota(find_iota(a).split("^"))
+  end
+
+  def complex_conjugate
+    self.class.new(@a.gsub('+', '-'))
   end
 
   private
