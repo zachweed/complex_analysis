@@ -19,6 +19,4 @@ Given `rspec` is installed, calling `rspec` goes through a series of test cases 
 
 1. Identify complex numbers, within a complex plane, in **polar form**, through defining **polar coordinates**.
 2. Representing the **absolute value** of some complex coordinate in a complex plane.
-3. Representing a **complex conjugate** of some point in the complex plane.
-4. Allow for **addition**, **subtraction**, and **multiplication** of these complex numbers.
-5. 
+3. Allow for **addition**, **subtraction**, and **multiplication** of these complex numbers.
