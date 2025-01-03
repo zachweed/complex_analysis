@@ -5,16 +5,26 @@ class ComplexNumber
   # exponent.
   IMAGINARY = [ '1', 'i', '-1', '-i' ]
 
-  def initialize(re, im)
-    @re = re
-    @im = find_base(im)
-    @i = convert_iota(find_iota(im).split("^"))
+  def initialize(a)
+    @re = find_re(a)
+    @im = find_base(find_im(a))
+    @i = convert_iota(find_iota(a).split("^"))
   end
 
   private
 
+    def find_re(a)
+      a.match(/(.*)\s(\+|\-).*/)
+      $1
+    end
+
+    def find_im(a)
+      a.match(/((\d*)+i.*)/)
+      $1 || ""
+    end
+
     def find_base(im)
-      im.match(/(-*\d)i(.*)/)
+      im.match(/(-*\d)*(i\^.*)*/)
       $1
     end
 
