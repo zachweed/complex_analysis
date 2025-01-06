@@ -1,8 +1,0 @@
-10/03/2024
-
-
-make 
-
-strong induction, how many steps back were looked? 
-
-think of induction as a ladder.
