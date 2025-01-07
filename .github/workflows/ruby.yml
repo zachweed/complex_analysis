@@ -40,7 +40,7 @@ jobs:
       run: |
         platform=${{matrix.os}}
         platform=${platform/macos-13/macos-latest}
-        platform=${{platform/macos-14/macos-13-arm64}}
+        platform=${platform/macos-14/macos-13-arm64}
         echo "platform = $platform" >> $GITHUB_OUTPUT
     - name: Set Ruby
       id: ruby
