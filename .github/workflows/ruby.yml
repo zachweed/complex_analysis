@@ -22,7 +22,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubunutu-20.04, ubuntu-22.04, ubuntu-24.04, macos-13, macos-14 ]
-        ruby: [ruby-3.4.0, ruby-3.4.1]
+        ruby: [ruby-3.2.2]
 
     runs-on: ${{ matrix.os }}
     steps:
