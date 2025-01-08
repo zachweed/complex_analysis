@@ -1,6 +1,5 @@
 require 'rspec'
-require './complex_number.rb'
-require 'pry-byebug'
+require './coordinate_systems/complex_number.rb'
 
 RSpec.describe ComplexNumber do
   let(:a){ "3 + 3i" }

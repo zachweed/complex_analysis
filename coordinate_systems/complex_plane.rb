@@ -11,26 +11,6 @@ class ComplexPlane
     (complex_number.absolute_value * Math::E) ** (complex_number.i * theta)
   end
 
-  def build_quadrant(max)
-    y_coordinates = ""
-    x_coordinates = ""
-    (max).times do |iteration|
-      y_coordinates << " | \n"
-    end
-    (max).times do |iteration|
-      x_coordinates << " " if iteration == 0
-      x_coordinates << "-"
-    end
-    y_coordinates += x_coordinates
-    return y_coordinates
-  end
-
-  def draw(max)
-    {
-      left: build_quadrant(max)
-    }
-  end
-
   private
 
     def generate_y_points
