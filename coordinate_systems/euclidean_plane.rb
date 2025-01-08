@@ -65,5 +65,4 @@ class EuclideanPlane
       bottom
     end
 
-
 end
