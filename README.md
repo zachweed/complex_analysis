@@ -79,7 +79,7 @@ ab.im
 
 
 ### Analyzing Work
-Given `rspec` is installed, calling `rspec` goes through a series of test cases on `ComplexNumber` and `ComplexPlane`.
+Given `rspec` is installed, calling `rspec` goes through a series of test cases on `ComplexNumber`, `ComplexPlane`, and `EuclideanPlane`.
 
 ### Goals
 
