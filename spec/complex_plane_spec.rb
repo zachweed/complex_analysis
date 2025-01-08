@@ -18,6 +18,37 @@ RSpec.describe ComplexPlane do
   end
 
   context "#draw" do
+    context "overall" do
+      let(:ab) { ComplexPlane.new }
+      context "with max of 1" do
+        let(:drawn) { ab.draw(1) }
+
+        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
+
+        it "returns a structure that we can build a graph from" do
+          expect(subject).to eq(" | \n- -\n | \n")
+        end
+      end
+      context "with max of 2" do
+        let(:drawn) { ab.draw(2) }
+
+        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
+
+        it "returns a structure that we can build a graph from" do
+          expect(subject).to eq("  |  \n  |  \n-- --\n  |  \n  |  \n")
+        end
+      end
+      context "with a max of 3" do
+        let(:drawn) { ab.draw(3) }
+
+        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
+
+        it "returns a structure that we can build a graph from" do
+          expect(subject).to eq("   |   \n   |   \n   |   \n--- ---\n   |   \n   |   \n   |   \n")
+        end
+      end
+    end
+
     context "quadrants" do
       let(:ab) { ComplexPlane.new }
 
@@ -31,7 +62,7 @@ RSpec.describe ComplexPlane do
         end
         context "right quadrant" do
           it "returns structure with a right quadrant equal to the total number of hyphens" do
-            expect(subject[:right]).to eq("-")
+            expect(subject[:right]).to eq("-\n")
           end
         end
         context "top iso split" do
@@ -56,7 +87,7 @@ RSpec.describe ComplexPlane do
 
         context "right quadrant" do
           it "returns structure with a right quadrant equal to the total number of hyphens" do
-            expect(subject[:right]).to eq("--")
+            expect(subject[:right]).to eq("--\n")
           end
         end
 
@@ -84,7 +115,7 @@ RSpec.describe ComplexPlane do
 
         context "right quadrant" do
           it "returns structure with a right quadrant equal to the total number of hyphens" do
-            expect(subject[:right]).to eq("---")
+            expect(subject[:right]).to eq("---\n")
           end
         end
 
