@@ -18,11 +18,87 @@ RSpec.describe ComplexPlane do
   end
 
   context "#draw" do
-    context "left quadrant" do
-      it "returns structure with a left quadrant" do
-        ab = ComplexPlane.new
-        structures = ab.draw(1)
-        expect(structures[:left]).to_not be_nil
+    context "quadrants" do
+      let(:ab) { ComplexPlane.new }
+
+      context "with one" do
+        subject { ab.draw(1) }
+
+        context "left quadrant" do
+          it "returns structure with a left quadrant equal to the total number of hyphens" do
+            expect(subject[:left]).to eq("-")
+          end
+        end
+        context "right quadrant" do
+          it "returns structure with a right quadrant equal to the total number of hyphens" do
+            expect(subject[:right]).to eq("-")
+          end
+        end
+        context "top iso split" do
+          it "returns structure with the number of spaces, a pipe character, total number of spaces, and a line break" do
+            expect(subject[:top]).to eq(" | \n")
+          end
+        end
+        context "bottom iso split" do
+          it "returns structure with the number of spaces, a pipe character, & total number of spaces" do
+            expect(subject[:bottom]).to eq(" | \n")
+          end
+        end
+      end
+      context "with two" do
+        subject { ab.draw(2) }
+
+        context "left quadrant" do
+          it "returns structure with a left quadrant equal to the total number of hyphens" do
+            expect(subject[:left]).to eq("--")
+          end
+        end
+
+        context "right quadrant" do
+          it "returns structure with a right quadrant equal to the total number of hyphens" do
+            expect(subject[:right]).to eq("--")
+          end
+        end
+
+        context "top iso split" do
+          it "returns structure with the number of spaces, a pipe character, total number of spaces, and a line break" do
+            expect(subject[:top]).to eq("  |  \n  |  \n")
+          end
+        end
+
+        context "bottom iso split" do
+          it "returns structure with the number of spaces, a pipe characters, total number of spaces, and a line break" do
+            expect(subject[:bottom]).to eq("  |  \n  |  \n")
+          end
+        end
+      end
+
+      context "with three" do
+        subject { ab.draw(3) }
+
+        context "left quadrant" do
+          it "returns structure with a left quadrant equal to the total number of hyphens" do
+            expect(subject[:left]).to eq("---")
+          end
+        end
+
+        context "right quadrant" do
+          it "returns structure with a right quadrant equal to the total number of hyphens" do
+            expect(subject[:right]).to eq("---")
+          end
+        end
+
+        context "top iso split" do
+          it "returns structure with the number of spaces, a pipe character, total number of spaces, and a line break" do
+            expect(subject[:top]).to eq("   |   \n   |   \n   |   \n")
+          end
+        end
+
+        context "bottom iso split" do
+          it "returns struture with the number of spaces, a pipe character, total number of spaces, and a line break" do
+            expect(subject[:bottom]).to eq("   |   \n   |   \n   |   \n")
+          end
+        end
       end
     end
   end
