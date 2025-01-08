@@ -9,46 +9,38 @@ RSpec.describe ComplexPlane do
     end
   end
 
-  context "#build_quadrant" do
-    context "with a max greater than 0" do
-      it "creates a graph with an absolute maximum of 1 on X and Y" do
-        expect(ComplexPlane.new.build_quadrant(1)).to eq(" | \n -")
+  context "#combined" do
+    let(:ab) { ComplexPlane.new }
+    context "with max of 1" do
+      let(:drawn) { ab.draw(1) }
+
+      subject { drawn[:combined] }
+
+      it "returns a structure that we can build a graph from" do
+        expect(subject).to eq(" | \n- -\n | \n")
+      end
+    end
+    context "with max of 2" do
+      let(:drawn) { ab.draw(2) }
+
+      subject { drawn[:combined] }
+
+      it "returns a structure that we can build a graph from" do
+        expect(subject).to eq("  |  \n  |  \n-- --\n  |  \n  |  \n")
+      end
+    end
+    context "with a max of 3" do
+      let(:drawn) { ab.draw(3) }
+
+      subject { drawn[:combined] }
+
+      it "returns a structure that we can build a graph from" do
+        expect(subject).to eq("   |   \n   |   \n   |   \n--- ---\n   |   \n   |   \n   |   \n")
       end
     end
   end
 
   context "#draw" do
-    context "overall" do
-      let(:ab) { ComplexPlane.new }
-      context "with max of 1" do
-        let(:drawn) { ab.draw(1) }
-
-        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
-
-        it "returns a structure that we can build a graph from" do
-          expect(subject).to eq(" | \n- -\n | \n")
-        end
-      end
-      context "with max of 2" do
-        let(:drawn) { ab.draw(2) }
-
-        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
-
-        it "returns a structure that we can build a graph from" do
-          expect(subject).to eq("  |  \n  |  \n-- --\n  |  \n  |  \n")
-        end
-      end
-      context "with a max of 3" do
-        let(:drawn) { ab.draw(3) }
-
-        subject { drawn[:top] + drawn[:left] + drawn[:center] + drawn[:right] + drawn[:bottom] }
-
-        it "returns a structure that we can build a graph from" do
-          expect(subject).to eq("   |   \n   |   \n   |   \n--- ---\n   |   \n   |   \n   |   \n")
-        end
-      end
-    end
-
     context "quadrants" do
       let(:ab) { ComplexPlane.new }
 

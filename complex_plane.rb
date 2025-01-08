@@ -12,13 +12,15 @@ class ComplexPlane
   end  
 
   def draw(max)
-    {
+    datum = {
       left: draw_left(max),
       right: draw_right(max),
       top: draw_top(max),
       bottom: draw_bottom(max),
-      center: draw_center
+      center: draw_center,
     }
+    datum[:combined] = datum[:top] + datum[:left] + datum[:center] + datum[:right] + datum[:bottom]
+    datum
   end
 
   private
