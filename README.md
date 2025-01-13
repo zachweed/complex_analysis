@@ -70,6 +70,24 @@ Please note, some offsetting is required, for now.
   |
 
 => nil
+[5] pry(main)> ab.place_point(-1, -1)
+
+  |  
+  |  
+-- --
+ x|  
+  |
+
+=> nil
+[6] pry(main)> ab.place_point(1, -1)
+
+  |  
+  |  
+-- --
+  | x
+  |
+
+=> nil
 ```
 
 #### Complex Plane
