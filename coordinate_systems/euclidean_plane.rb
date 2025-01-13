@@ -29,10 +29,14 @@ class EuclideanPlane
     if x >= 1
       if y >= 1
         datum[:top][x + 3] = ["x"]
+      else
+        datum[:bottom][x + 3] = ["x"]
       end
     else
       if y >= 1
         datum[:top][x.abs] = ["x"]
+      else
+        datum[:bottom][x.abs] = ["x"]
       end
     end
     datum
