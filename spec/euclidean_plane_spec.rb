@@ -2,8 +2,15 @@ require 'rspec'
 require './coordinate_systems/euclidean_plane.rb'
 
 RSpec.describe EuclideanPlane do
+  context "#place_point" do
+    context "for a point out of bounds" do
+      it "raises an error" do
+        expect{ described_class.new(1).place_point(2,2) }.to raise_error
+      end
+    end
+  end
+
   context "#combined" do
-    
     context "with max of 1" do
       let(:drawn) { EuclideanPlane.new(1).draw }
 
