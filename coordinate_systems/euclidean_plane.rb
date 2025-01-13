@@ -25,7 +25,17 @@ class EuclideanPlane
 
   def place_point(x, y)
     raise_error ArgumentError unless ( x <= @max && y <= @max )
-    expand_for_point([x,y].max)
+    datum = expand_for_point([x,y].max)
+    if x >= 1
+      if y >= 1
+        datum[:top][x + 3] = ["x"]
+      end
+    else
+      if y >= 1
+        datum[:top][x.abs] = ["x"]
+      end
+    end
+    datum
   end
 
   private
@@ -38,7 +48,7 @@ class EuclideanPlane
         bottom: draw_bottom(@max + 1),
         center: draw_center
       }
-      @datum[:combined] = @datum[:top] + @datum[:left] + @datum[:center] + @datum[:right] + datum[:bottom]
+      @datum[:combined] = @datum[:top].join("") + @datum[:left].join("") + @datum[:center] + @datum[:right].join("") + @datum[:bottom].join("")
       @datum
     end
 
