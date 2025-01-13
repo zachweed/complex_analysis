@@ -14,20 +14,25 @@ We can work with this plane like so:
 ```ruby
 [1] pry(main)> ab = EuclideanPlane.new(1)
 [2] pry(main)> ab.draw
+
  |
 - -
  |
+
 => nil
 [3] pry(main)> ab = EuclideanPlane.new(2)
 [4] pry(main)> ab.draw
+
   |
   |
 -- --
   |
   |
+
 => nil
 [5] pry(main)> ab = EuclideanPlane.new(3)
 [6] pry(main)> ab.draw
+
    |
    |
    |
@@ -35,6 +40,7 @@ We can work with this plane like so:
    |
    |
    |
+
 => nil
 ```
 ##### Placing a Point
@@ -44,21 +50,25 @@ Please note, some offsetting is required, for now.
 ```ruby
 [1] pry(main)> ab = EuclideanPlane.new(2)
 [2] pry(main)> ab.place_point(-1, 2)
+
  x |   
    |   
    |   
 --- ---
    |   
    |   
-   |   
+   |
+
 => nil
 [3] pry(main)> ab = EuclideanPlane.new(1)
 [4] pry(main)> ab.place_point(1, 1)
+
   | x
   |  
 -- --
   |  
-  |  
+  |
+
 => nil
 ```
 
@@ -81,19 +91,13 @@ Thus, this work can receive things like `3 + 3i^5` and appropriately:
 These are accomplished thorugh through finding the mod of some exponent on a disk of imaginary numbers, as they are represented within the iota and exponent cycle.
 
 ### How it Works
-```
-ab = ComplexNumber.new("3 + 3i")
-
-# Complex Conjugate
-ab.complex_conjugate.a
+```ruby
+[1] pry(main)> ab = ComplexNumber.new("3 + 3i")
+[2] pry(main)> ab.complex_conjugate.a
 => "3 - 3i"
-
-# (Re) - real part
-ab.re
+[3] pry(main)> ab.re
 => "3"
-
-# (Im) - imaginary part
-ab.im
+[4] pry(main)> ab.im
 => "3i"
 ```
 
