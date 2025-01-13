@@ -1,11 +1,9 @@
-# Representing a Euclidean Plane as R^2, where R is all Real Numbers (Re)
 class EuclideanPlane
   def initialize(max)
     @max = max
     @datum = {}
   end
 
-  # Builds each aspect of a graph, and then combines them with padding according to @max.
   def draw
     @datum = {
       left: draw_left(@max),
@@ -18,7 +16,6 @@ class EuclideanPlane
     @datum
   end
 
-  # Represents Euclidean Distance between two different pairs of coordinates.
   def distance(x_1, y_1, x_2, y_2)
     Math.sqrt(((x_1 - y_1)**2)+((x_2 - y_2)**2))
   end
@@ -28,11 +25,15 @@ class EuclideanPlane
     datum = expand_for_point([x,y].max)
     if x >= 1
       if y >= 1
-        datum[:top][x + 3] = ["x"]
+        datum[:top][x + (@max + 1)] = ["x"]
+      else
+        datum[:bottom][x + (@max + 1)] = ["x"]
       end
     else
       if y >= 1
         datum[:top][x.abs] = ["x"]
+      else
+        datum[:bottom][x.abs] = ["x"]
       end
     end
     datum
