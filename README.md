@@ -80,9 +80,3 @@ ab.im
 
 ### Analyzing Work
 Given `rspec` is installed, calling `rspec` goes through a series of test cases on `ComplexNumber`, `ComplexPlane`, and `EuclideanPlane`.
-
-### Goals
-
-1. Identify complex numbers, within a complex plane, in **polar form**, through defining **polar coordinates**.
-2. Representing the **absolute value** of some complex coordinate in a complex plane.
-3. Allow for **addition**, **subtraction**, and **multiplication** of these complex numbers.
