@@ -9,29 +9,25 @@ Represented some ordered pair, what some may call a Tuple, of two numbers within
 
 We can work with this plane like so:
 
-```ruby
-ab = EuclideanPlane.new(1)
-ab.draw
-=> 
+##### Drawing
 
+```ruby
+[1] pry(main)> ab = EuclideanPlane.new(1)
+[2] pry(main)> ab.draw
  |
 - -
  |
-
-ab = EuclideanPlane.new(2)
-ab.draw
-=> 
-
+=> nil
+[3] pry(main)> ab = EuclideanPlane.new(2)
+[4] pry(main)> ab.draw
   |
   |
 -- --
   |
   |
-
-ab = EuclideanPlane.new(3)
-ab.draw
-=> 
-
+=> nil
+[5] pry(main)> ab = EuclideanPlane.new(3)
+[6] pry(main)> ab.draw
    |
    |
    |
@@ -39,7 +35,31 @@ ab.draw
    |
    |
    |
+=> nil
+```
+##### Placing a Point
 
+Please note, some offsetting is required, for now.
+
+```ruby
+[1] pry(main)> ab = EuclideanPlane.new(2)
+[2] pry(main)> ab.place_point(-1, 2)
+ x |   
+   |   
+   |   
+--- ---
+   |   
+   |   
+   |   
+=> nil
+[3] pry(main)> ab = EuclideanPlane.new(1)
+[4] pry(main)> ab.place_point(1, 1)
+  | x
+  |  
+-- --
+  |  
+  |  
+=> nil
 ```
 
 #### Complex Plane
