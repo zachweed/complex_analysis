@@ -59,13 +59,18 @@ class EuclideanPlane
 
     def draw_left(max)
       left = []
-      max.times { left << ["-"] }
+      -(max).upto(1) do |n|
+        left << ["-#{n}"]
+        left << ["-"]
+      end
       left
     end
 
     def draw_right(max)
       right = []
-      max.times { right << ["-"] }
+      1.upto(max) do |n|
+        right << ["-"]
+      end
       right << ["\n"]
       right
     end
@@ -73,23 +78,27 @@ class EuclideanPlane
     def draw_top(max)
       top = []
       add_padding = -> { max.times { top << [" "] } }
-      max.times do
+      max.downto(0) do |n|
         add_padding.call()
+        top << ["\n"]
         top << ["|"]
         add_padding.call()
         top << ["\n"]
+        top << ["#{n}"]
       end
+      top << ["\n"]
       top
     end
 
     def draw_bottom(max)
       bottom = []
       add_padding = -> { max.times { bottom << [" "] } }
-      max.times do
+      0.upto(max) do |n|
         add_padding.call()
         bottom << ["|"]
         max.times { bottom << [" "] }
         bottom << ["\n"]
+        bottom << ["#{n}"]
       end
       bottom
     end
