@@ -46,6 +46,7 @@ class ComplexNumber
     end
 
     def find_iota(i)
+      return "" unless i
       i.match(/(i.*)/)
       $1 || ""
     end
