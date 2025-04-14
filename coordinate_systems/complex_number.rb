@@ -18,8 +18,6 @@ class ComplexNumber
     end
   end
 
-  # Reflects coordinates along Re axis
-  # Thus we simply flip the operator.
   def complex_conjugate
     self.class.new(a: @a.gsub('+', '-'))
   end
@@ -46,7 +44,7 @@ class ComplexNumber
     end
 
     def find_iota(i)
-      return "" unless i
+      i = i.to_i
       i.match(/(i.*)/)
       $1 || ""
     end
